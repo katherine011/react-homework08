@@ -16,7 +16,7 @@ const Boxes = () => {
     <>
       {quotes.map((el) => {
         return (
-          <div className="Box">
+          <div className="Box" key={el.id}>
             <div className="first">
               <p>{el.author}</p>
               <button onClick={() => setText(!text)}> </button>
