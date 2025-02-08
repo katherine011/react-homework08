@@ -1,0 +1,10 @@
+.MainCard {
+  width: 920px;
+  height: 509px;
+  border-radius: 23px;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+}

@@ -1,0 +1,20 @@
+.Box {
+  width: 333px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.first {
+  width: 333px;
+  height: 35px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.second {
+  width: 333px;
+}
